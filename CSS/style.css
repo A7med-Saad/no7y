@@ -1,0 +1,280 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 767){
+  .special-heading{
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container{
+    width: 750px;
+  }
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+  .container{
+    width: 970px;
+  }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+  .container{
+    width: 1170px;
+  }
+}
+
+.container{
+  width: 100%;
+  padding: 20px;
+  background-color: #99999999;
+  margin: auto;
+}
+
+.container .a1{
+  padding: 10px;
+  /* width: 100%; */
+}
+
+.container .a1-all{
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  column-gap: 2px;
+  
+}
+
+.container .a1-all .L{
+  border-radius: 10px 0px 0px 10px;
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  border: 0px 5px 0px 0px ;
+  border-color: #777777;
+
+}
+
+.container .a1-all .R{
+  border-radius:0px 10px 10px 0px;
+  padding: 10px;
+  background-color: white;
+}
+
+.container .a1-all .imge{
+  display: flex;
+  justify-content: center;
+}
+
+.container .a1-all .imge img{
+  width: 150px;
+  border-radius: 50%;
+}
+
+.container .a1-all h3{
+  text-align: center;
+}
+
+.container .a1-all .line-a{
+  display: flex;
+  justify-content: center;
+}
+
+.container .a1-all .line{
+  width: 100px;
+  height: 10px;
+  background: linear-gradient( to right, #27ae60 70%, #c0392b 30% );
+  border-radius: 3px;
+  margin: 0px;
+}
+
+.container .a1-all p{
+  font-size: 10px;
+  text-align: center;
+  color: #777777;
+}
+
+.container .a1-all p span{
+  color: #27ae60;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.container .a1-all .R h2{
+
+}
+
+.container .a1-all .R .P1{
+width: calc(100% - 50px);
+font-size: 20px;
+text-align: left;
+line-height: 30px;
+}
+
+.container .a1-all .R .P2{
+  display: flex;
+  justify-content: end;
+  margin-top: 70px;
+  margin-bottom: 0;
+} 
+
+.container .a2{
+  padding: 10px;
+  background-color: white;
+  margin:10px ;
+  border-radius: 10px;
+}
+
+.container .a2 .one{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #9ca3dc;
+  width: fit-content;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.container .a2 .two{
+  margin:20px 0px;
+}
+
+.container .a2 .two .green{
+  color: #27ae60;
+  font-weight: bold;
+}
+.container .a2 .two .red{
+  color: red;
+  font-weight: bold;
+}
+
+.container .a2 .three{
+  margin:20px 0px;
+}
+
+.container .a2 .three .green{
+  color: #27ae60;
+  font-weight: bold;
+}
+.container .a2 .three .red{
+  color: red;
+  font-weight: bold;
+}
+
+.container .a2 .four{
+  margin:20px 0px;
+}
+
+.container .a2 .four .green{
+  color: #27ae60;
+  font-weight: bold;
+}
+.container .a2 .four .red{
+  color: red;
+  font-weight: bold;
+}
+
+.container .a3{
+  padding: 10px;
+  background-color: white;
+  margin:10px ;
+  border-radius: 10px;
+}
+
+.container .a3 .one{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #9ca3dc;
+  width: fit-content;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.container .a3 .imge{
+  display:grid;
+  grid-template-columns: repeat(10, auto);
+}
+
+.container .a3 .imge img{
+  width: calc(100% - 5px);
+  height:calc(100% - 5px);
+  padding: 0px;
+}
+
+.container .a4{
+  padding: 10px;
+  background-color: white;
+  margin:10px ;
+  border-radius: 10px;
+}
+
+.container .a4 .one{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #9ca3dc;
+  width: fit-content;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+/* .container .a4 p{
+
+} */
+
+.container .a4 .red{
+font-weight: bold;
+color: red;
+}
+
+.container .a4 .blue{
+  font-weight: bold;
+  color: blue;
+}
+
+.container .a5 {
+  padding: 10px;
+  background-color: white;
+  margin:10px ;
+  border-radius: 10px;
+}
+
+.container .a5 .one{
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #9ca3dc;
+  width: fit-content;
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.container .a5 p{
+
+}
+
+.container .a5 .y{
+  color: green;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+}
+
+.container .a5 .n{
+  color: red;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+}
